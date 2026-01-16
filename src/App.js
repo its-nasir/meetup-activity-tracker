@@ -10,9 +10,13 @@ import Polls from './pages/Polls';
 import './App.css';
 
 function App() {
+  // Use basename from package.json homepage for GitHub Pages
+  // In development, process.env.PUBLIC_URL will be empty, so it defaults to "/"
+  const basename = process.env.PUBLIC_URL || '/';
+
   return (
     <AuthProvider>
-      <Router>
+      <Router basename={basename}>
         <Routes>
           <Route path="/login" element={<Login />} />
 
