@@ -1,0 +1,61 @@
+.leaderboard-container {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.filters {
+    margin-bottom: 1.5rem;
+}
+
+.search-input {
+    width: 100%;
+    max-width: 300px;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.leaderboard-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.leaderboard-table th,
+.leaderboard-table td {
+    padding: 1rem;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+}
+
+.leaderboard-table th {
+    background-color: #f8f9fa;
+    font-weight: 600;
+    color: #555;
+}
+
+.row-winner {
+    background-color: #fff8e1;
+}
+
+.btn-star {
+    background: none;
+    border: 1px solid #ddd;
+    padding: 0.25rem 0.75rem;
+    border-radius: 20px;
+    cursor: pointer;
+    color: #888;
+    transition: all 0.2s;
+}
+
+.btn-star.active {
+    background-color: #ffc107;
+    color: #333;
+    border-color: #ffc107;
+    font-weight: 600;
+}
+
+.btn-star:hover {
+    border-color: #ffc107;
+}

@@ -1,0 +1,108 @@
+.activity-card {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    margin-bottom: 2rem;
+    border-left: 5px solid #007bff;
+}
+
+.activity-card h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+.activity-meta {
+    display: flex;
+    gap: 1.5rem;
+    color: #666;
+    margin: 1rem 0;
+    font-size: 0.95rem;
+}
+
+.activity-actions {
+    margin-top: 1.5rem;
+    padding-top: 1rem;
+    border-top: 1px solid #eee;
+}
+
+.action-buttons {
+    display: flex;
+    gap: 1rem;
+}
+
+.btn-accept,
+.btn-reject,
+.btn-cancel {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 500;
+    color: white;
+}
+
+.btn-accept {
+    background-color: #28a745;
+}
+
+.btn-accept:hover {
+    background-color: #218838;
+}
+
+.btn-reject {
+    background-color: #dc3545;
+}
+
+.btn-reject:hover {
+    background-color: #c82333;
+}
+
+.btn-cancel {
+    background-color: #6c757d;
+    margin-left: 0.5rem;
+}
+
+.reject-form {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.reject-form input {
+    flex: 1;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.status-badge {
+    display: inline-block;
+    padding: 0.25rem 0.75rem;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.status-accepted {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.status-rejected {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+.reject-reason {
+    margin: 0.25rem 0 0 0;
+    font-size: 0.8rem;
+    text-transform: none;
+    font-style: italic;
+}
+
+.admin-footer {
+    margin-top: 1rem;
+    font-size: 0.85rem;
+    color: #999;
+}
